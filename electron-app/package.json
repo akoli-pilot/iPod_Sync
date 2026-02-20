@@ -1,0 +1,18 @@
+{
+  "name": "ipod-electron",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:native": "cmake-js build",
+    "build": "npm run build:native"
+  },
+  "dependencies": {
+    "electron": "^40.2.1",
+    "node-addon-api": "^7.0.0"
+  },
+  "devDependencies": {
+    "cmake-js": "^8.0.0"
+  }
+}
